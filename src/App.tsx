@@ -423,6 +423,27 @@ export default function App() {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section className="py-20 px-6 bg-white border-t border-zinc-200">
+        <div className="max-w-4xl mx-auto text-center">
+          <FadeIn>
+            <div className="inline-block p-8 md:p-12 border-2 border-copper-600 bg-zinc-50 relative w-full max-w-2xl">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-copper-600 text-white px-6 py-1 text-sm font-bold tracking-widest uppercase">
+                Inversión
+              </div>
+              <h3 className="text-2xl md:text-3xl font-bold text-zinc-900 mb-2">Valor del Programa</h3>
+              <div className="flex items-end justify-center gap-2 mt-6">
+                <span className="text-5xl md:text-6xl font-extrabold text-copper-700">1 UF</span>
+                <span className="text-xl text-zinc-500 font-medium mb-2">/ hora líquido</span>
+              </div>
+              <p className="text-zinc-600 mt-6 font-medium max-w-md mx-auto">
+                Capacitación especializada y práctica, enfocada en resultados reales para tu equipo o empresa.
+              </p>
+            </div>
+          </FadeIn>
+        </div>
+      </section>
+
       {/* Contact / CTA */}
       <section id="contacto" className="py-24 px-6 bg-zinc-900 text-white border-t border-zinc-800">
         <div className="max-w-4xl mx-auto text-center">
